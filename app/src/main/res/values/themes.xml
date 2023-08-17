@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CV" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.CV" parent="Base.Theme.CV" />
+
+    <style name="MyExpandedTitle" parent="@style/TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="fontFamily">@font/lora_bold</item>
+        <item name="android:fontFamily">@font/lora_bold</item>
+    </style>
+
+    <style name="MyCollapsedTitle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="fontFamily">@font/lora_bold</item>
+        <item name="android:fontFamily">@font/lora_bold</item>
+    </style>
+</resources>
